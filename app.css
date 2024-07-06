@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#maze {
+    display: grid;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wall {
+    background-color: black;
+}
+
+.path {
+    background-color: white;
+}
+
+.victory {
+    background-color: green;
+}
+
+.button {
+    padding: 1%;
+    margin: 1%;
+}
+
+
